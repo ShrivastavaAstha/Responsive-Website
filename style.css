@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+header{
+    background-color: black;
+    height:100vh;
+    background-size: cover;
+}
+body{
+    color:#fff;
+    font-family: 'Dosis', sans-serif;
+}
+
+.clearfix:after{
+    content:".";
+    visibility: hidden;
+    display: block;
+    height:0px;
+    clear:both;
+}
+.row{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.logo{
+    height: 180px;
+    width: auto;
+    float:left;
+    margin-top:20px;
+}
+
+.main-nav{
+    float: right;
+    margin-top: 60px;
+}
+
+.main-nav li{
+    display: inline-block;
+    list-style:none;
+    margin-left:40px;
+}
+.main-nav li a{
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.main-nav li a:hover{color:rgb(255,170,0);}
+
+.main-content-header{
+    width:1180px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+h1{
+    color:#fff;
+    font-size: 240%;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+button{
+    display:inline-block;
+    padding: 10px 30px;
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 100px;
+}
+
+button a{
+    text-decoration: none;
+    color:black;
+}
+
+button:hover{
+    background-color: rgb(46, 31, 31);
+    border: 1px solid #fff;
+}
+
+button a:hover{
+    color:rgb(255,170,0);
+}
+
+.centerDiv{
+    text-align: center;
+    color:#fff;
+    background-color: #040404;
+}
+#asthasrivastava{ font-family: 'Dosis' , sans-serif;}
+iframe{max-width: 90%;}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #040404;
+}
+
+footer h4{
+    color: rgb(255, 249, 249);
+    font-family: 'Dosis' , sans-serif;
+    line-height: 100px;
+    text-align: center;
+}
+.iconbar{
+    color:#040404;
+}
+
+@media only screen and (max-width: 1180px){
+    .main-content-header{
+        width:100%;
+        padding:2%;
+    }
+    }
+
+
+@media only screen and (max-width: 998px){
+    h1{font-size: 200%;}
+}
+@media only screen and (max-width: 768px){
+    h1{font-size: 180%;}
+
+    .main-nav{display: none;}
+
+    .iconbar{
+        color:rgb(255, 255, 255);
+        float: right;
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+    .iconbar:hover{
+        color:rgb(255, 170, 0)
+    }
+
+    .main-nav{float: left;}
+
+    .main-nav li{
+        display:block;
+        margin-top: 10px;
+    }
+
+}
+@media only screen and (max-width: 480px){
+    button{
+        margin-bottom: 20px;
+    }
+
+    h1{font-size: 160%;}
+    }

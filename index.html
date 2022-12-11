@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="row clearfix">
+                <img src="images.png" alt="logo" class="logo">
+                <ul class="main-nav" id="check-class">
+                    <li><a href="https://www.thapatechnical.com/">Home</a></li>
+                    <li><a href="#">MyWork</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">AboutUs</a></li>
+                    <li><a href="#">ContactUs</a></li>
+                </ul>
+            <a href="#" class="iconbar" onclick="responsive()"> <i class="fa solid fa-bars"></i></a></div>
+            </div>
+        </nav>
+
+            <div class="main-content-header"><h2>ASTHA  /  WEB DEVELOPER</h2>
+            <h1>ASTHA SRIVASTAVA</h1><br>
+            <button><a href="#">astha vlog</a></button>
+            <button><a href="#">astha blog</a></button> </div>
+            
+    </header>
+    <div class="centerDiv">
+        <h2 id="asthasrivastava" >AsthaSrivastava YouTube Video</h2><br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/b9STkhzN9qM" title="YouTube video player"
+         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+    </div>
+    
+    <footer><h4>@Copyright AsthaSrivastava </h4></footer>
+
+    <script type="text/javascript">
+        function responsive(){
+            var x = document.getElementById('check-class');
+            if(x.style.display === "none"){
+                x.style.display="block";
+            }else{
+                x.style.display="none";
+            }
+        }
+    </script>
+    
+</body>
+</html>
